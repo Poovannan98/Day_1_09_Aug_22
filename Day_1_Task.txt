@@ -1,0 +1,17 @@
+HTTP/1.1
+
+Ithe usest works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+It uses requests resource Inlining for use getting multiple pages.	
+It compresses data by itself.	
+
+HTTP/2
+
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages.
+It uses HPACK for data compression.
+
+Objects And Its Internal Representation In JavaScript
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types. An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
